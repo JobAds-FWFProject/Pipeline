@@ -23,7 +23,7 @@ information extraction (spaCy NER) ─► span mapping ─► gender labels + II
 - **Corpus:** 29 newspaper titles from ANNO, selected as the titles with the most editions containing job ads, 1850–1950.
 - **Ground truth:** ~15,000 manually annotated job ads (14,985), used to train and evaluate the models below.
 - **Language:** predominantly German, printed largely in Fraktur (long s `ſ`, `⸗` hyphen, etc.).
-- **Team (alphabetic order):** Raven Adam, Saranya Balasubramanian, Manfred Füllsack, Jörn Kleinert (PI), Wiltrud Mölzer, Klara Venglarova, Georg Vogeler.
+- **Team (alphabetic order):** Raven Adam, Saranya Balasubramanian, Manfred Füllsack, Jörn Kleinert (PI), Wiltrud Mölzer, Johanna Ofenauer, Klara Venglarova, Georg Vogeler.
 - **Project website:** <https://historical-job-ads.uni-graz.at/en/>
 
 Newspapers are identified by their three-letter ANNO code (e.g. `nwb`, `nfp`, `wrz`, `dvb`, `ptb`, `nwj`). In the notebook this code is called `tag` or `paper_name`, and every step reads and writes files named after it.
